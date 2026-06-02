@@ -17,10 +17,10 @@ A few changes were made necessary by the switch to `polyglot`. More specifically
 
 ### Translated strings
 
-Another change was the usage of translated strings in the pages. Before, the translated strings were used in the pages by using the `t` filter, like `{% t titles.about %}`, and these strings were defined inside [\_i18n/LANG.yml](https://github.com/george-gca/multi-language-al-folio/blob/8f1528a4816aaf16e916791ae0f8cddbecf2416a/_i18n/en-us.yml). Now, when possible, the translated strings are used directly in the pages for that language. When a string is used at the layout level, like in the [\_layouts/about.liquid](_layouts/about.liquid) file, we now have to call for the translated string inside [\_data/LANG/strings.yml](https://github.com/george-gca/multi-language-al-folio/blob/main/_data/en-us/strings.yml). What previously was:
+Another change was the usage of translated strings in the pages. Before, the translated strings were used in the pages by using the `t` filter, like `{% raw %}{% t titles.about %}{% endraw %}`, and these strings were defined inside [\_i18n/LANG.yml](https://github.com/george-gca/multi-language-al-folio/blob/8f1528a4816aaf16e916791ae0f8cddbecf2416a/_i18n/en-us.yml). Now, when possible, the translated strings are used directly in the pages for that language. When a string is used at the layout level, like in the [\_layouts/about.liquid](_layouts/about.liquid) file, we now have to call for the translated string inside [\_data/LANG/strings.yml](https://github.com/george-gca/multi-language-al-folio/blob/main/_data/en-us/strings.yml). What previously was:
 
 ```liquid
-{% t main.contact_note %}
+{% raw %}{% t main.contact_note %}{% endraw %}
 ```
 
 now is:
@@ -34,12 +34,12 @@ now is:
 Due to the usage of the `polyglot` plugin, a lot of the previous workarounds were made unnecessary. For example, the `t` filter was used to translate the `page.title` and `page.description` variables in a lot of different files. Now, the values of these variables can be directly used. The same applies to some solutions regarding page redirects or assets usage. For example, in the old file `_layouts/archive-category.liquid` (currently [\_layouts/archive.liquid](_layouts/archive.liquid)), we had this piece of code:
 
 ```liquid
-{% assign is_asset = post.redirect | startswith: '/assets/' %}
+{% raw %}{% assign is_asset = post.redirect | startswith: '/assets/' %}
 {% if is_asset %}
   <a class="post-link" href="{{ post.redirect | prepend: site.baseurl_root }}">{{ post.title }}</a>
 {% else %}
   <a class="post-link" href="{{ post.redirect | prepend: site.baseurl }}">{{ post.title }}</a>
-{% endif %}
+{% endif %}{% endraw %}
 ```
 
 Which was responsible to assess if the `post.redirect` was an asset or a page and to build the correct link considering the current language. Now, we can simply use:
