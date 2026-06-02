@@ -2,15 +2,24 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: Kei
-middle_name: 
+middle_name:
 last_name: Hiroshima
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+contact_note: >
+  mail: hiroshima-kei-st <at> ynu.jp
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  `description will be updated soon.`
+footer_text: >
+  &copy; 2025 Kei Hiroshima. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+  using the <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+keywords: Artificial Intelligence, Black-box Optimization, Natural Language Processing, Machine Learning, Transfer Learning, Continual Learning, Computer Vision
+icon: 😃 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://KeiHiroshima.github.io # the base hostname & protocol for your site
-baseurl: 
+baseurl:
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -48,13 +57,11 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
-max_width: 1000px
-
-# TODO: add layout settings (single page vs. multi-page)
+max_width: 930px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -84,16 +91,17 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
+blog_name: al-folio # blog_name will be displayed in your blog page
+blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
-  title: ":title - pagination.page :num"
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -110,9 +118,10 @@ giscus:
   dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
   light_theme: light # name of the light color scheme (preferred works well with al-folio light mode)
   emit_metadata: 0
+  lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: multi-language-al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -120,16 +129,6 @@ disqus_shortname: multi-language-al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -275,16 +274,16 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Hiroshima, H.]
+  first_name: [Kei, K.]
 
   style: apa
   locale: en
@@ -368,7 +367,7 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br", "fr-ca"]
+languages: ["en-us", "pt-br"]
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
