@@ -170,7 +170,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Redes sociais',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Kei Hiroshima# your LinkedIn user name", "_blank");
+          window.open("https://www.linkedin.com/in/kei-hiroshima", "_blank");
         },
       },{
         id: 'social-rss',
