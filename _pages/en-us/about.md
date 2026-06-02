@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: PhD student at [Yokohama National University](https://www.ynu.ac.jp/) # <a href='#'>Affiliations</a>.
+subtitle: PhD student at <a href="https://www.ynu.ac.jp/" target="_blank">Yokohama National University</a>. # <a href='#'>Affiliations</a>.
 
 profile:
   align: right
@@ -14,7 +14,7 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
