@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://KeiHiroshima.github.io/sitemap.xml
