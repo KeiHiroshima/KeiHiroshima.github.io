@@ -3,11 +3,11 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. PhD student at Yokohama National University
+subtitle: PhD student at [Yokohama National University](https://www.ynu.ac.jp/) # <a href='#'>Affiliations</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>

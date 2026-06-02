@@ -26,7 +26,7 @@ citation:
 collections:
   books: books
   posts: posts
-contact_note: mail me at <a href="mailto:{{ site.socials.email }}">{{ site.socials.email }}</a>
+contact_note: contact me <a href="here">{{ site.socials.email }}</a>
 cv:
   address: Address
   area: Area
