@@ -88,18 +88,7 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/pt-br/books/the_godfather/";
-            },},{id: "news-um-anúncio-simples-em-uma-linha",
-          title: 'Um anúncio simples em uma linha.',
-          description: "",
-          section: "Novidades",},{id: "news-um-anúncio-longo-com-detalhes",
-          title: 'Um anúncio longo com detalhes',
-          description: "",
-          section: "Novidades",handler: () => {
-              window.location.href = "/pt-br/news/announcement_2/";
-            },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
-          title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "Novidades",},{id: "news-tba",
+            },},{id: "news-tba",
           title: 'TBA',
           description: "",
           section: "Novidades",},{id: "projects-projeto-1",

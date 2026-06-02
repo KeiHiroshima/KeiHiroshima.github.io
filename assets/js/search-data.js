@@ -91,17 +91,6 @@ ninja.data = [{
             },},{id: "news-tba",
           title: 'TBA',
           description: "",
-          section: "News",},{id: "news-um-anúncio-longo-com-detalhes",
-          title: 'Um anúncio longo com detalhes',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
-          title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-tba",
-          title: 'TBA',
-          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
