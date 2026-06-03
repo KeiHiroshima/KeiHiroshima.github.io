@@ -88,8 +88,8 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/pt-br/books/the_godfather/";
-            },},{id: "news-tba",
-          title: 'TBA',
+            },},{id: "news-nosso-artigo-tunable-magmax-preference-aware-model-merging-for-continual-learning-foi-aceito-na-28ª-international-conference-on-pattern-recognition-icpr-2026-lyon-frança-17-22-de-agosto-de-2026",
+          title: 'Nosso artigo “Tunable MAGMAX: Preference-Aware Model Merging for Continual Learning” foi aceito na...',
           description: "",
           section: "Novidades",},{id: "projects-projeto-1",
           title: 'projeto 1',
