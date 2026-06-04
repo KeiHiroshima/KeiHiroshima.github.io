@@ -20,14 +20,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/pt-br/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "um tema simples para acadêmicos",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/pt-br/blog/";
-          },
-        },{id: "nav-publicações",
+  },{id: "nav-publicações",
           title: "publicações",
           description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
           section: "Menu de navegação",
@@ -62,28 +55,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/pt-br/teaching/";
           },
-        },{id: "nav-membros",
-          title: "membros",
-          description: "membros do grupo de pesquisa ou laboratório",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/pt-br/people/";
-          },
-        },{id: "dropdown-estante-de-livros",
-              title: "estante de livros",
-              description: "",
-              section: "Outras opções",
-              handler: () => {
-                window.location.href = "/pt-br/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Outras opções",
-              handler: () => {
-                window.location.href = "/pt-br/blog/";
-              },
-            },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "",handler: () => {
