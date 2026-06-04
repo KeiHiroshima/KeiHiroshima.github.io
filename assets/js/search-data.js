@@ -113,7 +113,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/en-us//assets/pdf/en-us/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/en//assets/pdf/en/example_pdf.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -151,11 +151,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=eDwf4zYAAAAJ", "_blank");
         },
       },{
-          id: 'lang-pt-br',
-          title: 'pt-br',
+          id: 'lang-ja',
+          title: 'ja',
           section: 'Languages',
           handler: () => {
-            window.location.href = "/pt-br" + updatedUrl;
+            window.location.href = "/ja" + updatedUrl;
           },
         },{
       id: 'light-theme',
