@@ -5,7 +5,7 @@ permalink: /blog/
 title: blog
 blog_name: al-folio em português brasileiro
 description: um tema simples para acadêmicos
-nav: true
+nav: false
 nav_order: 1
 pagination:
   enabled: true
