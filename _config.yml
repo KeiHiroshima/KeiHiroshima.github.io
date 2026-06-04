@@ -197,8 +197,8 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/en-us/about_einstein.md
-  - _pages/pt-br/about_einstein.md
+  - _pages/en/about_einstein.md
+  - _pages/ja/about_einstein.md
   - purgecss.config.js
   - README.md
   - README.pt-br.md
@@ -367,8 +367,8 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br"]
-default_lang: "en-us"
+languages: ["en", "ja"]
+default_lang: "en"
 exclude_from_localization: ["assets"]
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
@@ -659,10 +659,10 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume_en-us
-    json: assets/json/resume_en-us.json # it can also be an url
-  - data: resume_pt-br
-    json: assets/json/resume_pt-br.json # it can also be an url
+  - data: resume_en
+    json: assets/json/resume_en.json # it can also be an url
+  - data: resume_ja
+    json: assets/json/resume_ja.json # it can also be an url
 
 jsonresume:
   - basics
