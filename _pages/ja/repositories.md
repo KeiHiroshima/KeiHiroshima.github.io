@@ -2,15 +2,15 @@
 page_id: repositories
 layout: page
 permalink: /repositories/
-title: repositórios
-description: Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.
+title: リポジトリ
+description: "`_data/repositories.yml` の `github_users` と `github_repos` を編集して，ご自身の GitHub プロフィールとリポジトリを追加してください。"
 nav: true
 nav_order: 4
 ---
 
 {% if site.data.repositories.github_users %}
 
-## Usuários do GitHub
+## GitHub ユーザー
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -38,7 +38,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_repos %}
 
-## Repositórios do GitHub
+## GitHub リポジトリ
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
