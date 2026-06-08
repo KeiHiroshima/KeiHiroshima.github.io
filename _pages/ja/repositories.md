@@ -4,7 +4,7 @@ layout: page
 permalink: /repositories/
 title: リポジトリ
 description: "`_data/repositories.yml` の `github_users` と `github_repos` を編集して，ご自身の GitHub プロフィールとリポジトリを追加してください。"
-nav: true
+nav: false
 nav_order: 4
 ---
 
