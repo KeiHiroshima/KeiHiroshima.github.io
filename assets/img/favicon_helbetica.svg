@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background is transparent so the logo works on both light (white) and dark (black) themes -->
+  <text
+    x="50"
+    y="54"
+    fill="#2698ba"
+    font-family="Helvetica, Arial, sans-serif"
+    font-size="40"
+    font-weight="700"
+    letter-spacing="-2"
+    text-anchor="middle"
+    dominant-baseline="central"
+  >K.H.</text>
+</svg>

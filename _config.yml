@@ -16,7 +16,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 keywords: Artificial Intelligence, Black-box Optimization, Natural Language Processing, Machine Learning, Transfer Learning, Continual Learning, Computer Vision
-icon: 😃 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg # image name in /assets/img/ (or an emoji like 😃 for an emoji favicon)
 
 url: https://KeiHiroshima.github.io # the base hostname & protocol for your site
 baseurl:
