@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.ynu.ac.jp/" target="_blank">横浜国立大学</a> 博士課程学生。
+subtitle: <a href="https://www.ynu.ac.jp/" target="_blank">横浜国立大学</a> <a href="https://shiralab.ynu.ac.jp/" target="_blank">白川・内田研究室</a> 博士課程学生。
 
 profile:
   align: right
@@ -28,4 +28,5 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-近日中に内容を更新予定です。
+問題設定が曖昧，データストリームが非定常といった実世界の環境において，機械学習システムが効率よく最適化できるようになることを目指して研究しています．具体的な研究テーマは，継続学習における嗜好対応モデルマージと，LLMを用いたブラックボックス最適化の自動定式化・アルゴリズム選択の2つです．前者では逐次タスクにわたる知識保持（破滅的忘却の回避）を，後者では自然言語記述のみから最適化問題の探索空間を同定しアルゴリズムを選択することを主な課題としています．MLと最適化の融合，およびモデルが構造を推論する際の内部過程に広く関心を持っています．
+2029年3月修了予定．機械学習・最適化に関わる研究開発職を志望しており，現在求職中です．
