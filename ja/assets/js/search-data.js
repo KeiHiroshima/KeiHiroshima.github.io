@@ -27,13 +27,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ja/publications/";
           },
-        },{id: "nav-プロジェクト",
-          title: "プロジェクト",
-          description: "研究プロジェクト一覧。",
-          section: "ナビゲーションメニュー",
-          handler: () => {
-            window.location.href = "/ja/projects/";
-          },
         },{id: "nav-リポジトリ",
           title: "リポジトリ",
           description: "`_data/repositories.yml` の `github_users` と `github_repos` を編集して，ご自身の GitHub プロフィールとリポジトリを追加してください。",
