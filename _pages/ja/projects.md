@@ -4,7 +4,7 @@ layout: page
 title: プロジェクト
 permalink: /projects/
 description: 研究プロジェクト一覧。
-nav: true
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
