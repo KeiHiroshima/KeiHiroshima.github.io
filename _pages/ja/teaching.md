@@ -4,7 +4,7 @@ layout: page
 permalink: /teaching/
 title: 教育活動
 description: 担当授業の資料・情報。
-nav: true
+nav: false
 nav_order: 6
 ---
 
