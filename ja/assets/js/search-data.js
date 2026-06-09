@@ -36,7 +36,7 @@ ninja.data = [{
           },
         },{id: "nav-教育活動",
           title: "教育活動",
-          description: "担当授業の情報。",
+          description: "",
           section: "ナビゲーションメニュー",
           handler: () => {
             window.location.href = "/ja/teaching/";
