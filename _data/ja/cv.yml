@@ -1,101 +1,69 @@
-- title: General Information
+- title: 基本情報
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: 氏名
+      value: 廣島 圭（Kei Hiroshima）
+    - name: メール
+      value: hiroshima-kei-st@ynu.jp
+    - name: 所属
+      value: 横浜国立大学 白川・内田研究室
+    - name: 使用言語
+      value: "日本語（ネイティブ）、英語（TOEIC 860 / IELTS 6.5 - L 6.0・R 7.0・W 6.0・S 6.0）"
 
-- title: Education
+- title: 学歴
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: 博士課程
+      institution: 横浜国立大学 環境情報学府
+      year: 2025 - 現在
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - 白川・内田研究室
+        - 2029年3月 修了予定
+    - title: 修士課程（情報学）
+      institution: 横浜国立大学 環境情報学府
+      year: 2022 - 2025
       description:
-        - Description 1.
-        - Description 2.
+        - シドニー工科大学 Faculty of Engineering and Information Technology（オーストラリア）へ留学（2023年1月 - 2023年12月）。
+    - title: 学士（工学）
+      institution: 横浜国立大学 理工学部 数物・電子情報系学科 電子情報システムEP
+      year: 2018 - 2022
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-now
-      description: A fork of al-folio theme with support for multiple languages.
-
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: 研究内容
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 機械学習と最適化
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - 問題設定が曖昧でデータストリームが非定常といった実世界の環境における、機械学習システムの効率的な最適化。
+        - 継続学習における嗜好対応モデルマージ（逐次タスクにわたる知識保持・破滅的忘却の回避）。
+        - LLMを用いたブラックボックス最適化の自動定式化・アルゴリズム選択（自然言語記述のみからの探索空間の同定）。
+        - 機械学習と最適化の融合、およびモデルが構造を推論する際の内部過程への関心。
 
-- title: Other Interests
+- title: 教育歴
+  type: time_table
+  contents:
+    - title: 非常勤講師
+      institution: 横浜国立大学
+      year: 2025
+      description:
+        - 担当講義：数理・データサイエンス・AI入門
+
+- title: 受賞
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - 優秀発表賞、SSI2025
+
+- title: 業績
+  type: time_table
+  contents:
+    - title: "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems"
+      institution: NeurIPS 2026 Evaluations and Datasets Track
+      year: 2026
+      description:
+        - Yutaro Yamada, Kei Hiroshima, Nozomu Yoshinari, Kento Uchida, Shinichi Shirakawa.
+
+- title: 専門分野
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>研究領域:</u> 人工知能、機械学習、ブラックボックス最適化、自然言語処理、継続学習、転移学習。
