@@ -27,6 +27,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ja/publications/";
           },
+        },{id: "nav-履歴書",
+          title: "履歴書",
+          description: "このページは &#39;_pages/ja/cv.md&#39; で編集できます。上部のPDFダウンロードボタンも変更・削除可能です。",
+          section: "ナビゲーションメニュー",
+          handler: () => {
+            window.location.href = "/ja/cv/";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
