@@ -20,22 +20,22 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/ja/";
     },
-  },{id: "nav-論文",
-          title: "論文",
-          description: "発表論文一覧（年代逆順・分野別）。jekyll-scholar により自動生成。",
+  },{id: "nav-publications",
+          title: "publications",
+          description: "",
           section: "ナビゲーションメニュー",
           handler: () => {
             window.location.href = "/ja/publications/";
           },
-        },{id: "nav-履歴書",
-          title: "履歴書",
+        },{id: "nav-cv",
+          title: "cv",
           description: "",
           section: "ナビゲーションメニュー",
           handler: () => {
             window.location.href = "/ja/cv/";
           },
-        },{id: "nav-教育活動",
-          title: "教育活動",
+        },{id: "nav-teaching",
+          title: "teaching",
           description: "",
           section: "ナビゲーションメニュー",
           handler: () => {
