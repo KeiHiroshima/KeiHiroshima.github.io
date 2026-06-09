@@ -29,7 +29,7 @@ ninja.data = [{
           },
         },{id: "nav-履歴書",
           title: "履歴書",
-          description: "このページは &#39;_pages/ja/cv.md&#39; で編集できます。上部のPDFダウンロードボタンも変更・削除可能です。",
+          description: "",
           section: "ナビゲーションメニュー",
           handler: () => {
             window.location.href = "/ja/cv/";
