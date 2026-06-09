@@ -34,6 +34,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ja/cv/";
           },
+        },{id: "nav-教育活動",
+          title: "教育活動",
+          description: "担当授業の情報。",
+          section: "ナビゲーションメニュー",
+          handler: () => {
+            window.location.href = "/ja/teaching/";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
