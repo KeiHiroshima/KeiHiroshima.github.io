@@ -2,7 +2,7 @@
 page_id: teaching
 layout: page
 permalink: /teaching/
-title: 教育活動
+title: teaching
 description:
 nav: true
 nav_order: 6

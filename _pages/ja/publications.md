@@ -2,8 +2,8 @@
 page_id: publications
 layout: page
 permalink: /publications/
-title: 論文
-description: 発表論文一覧（年代逆順・分野別）。jekyll-scholar により自動生成。
+title: publications
+description:
 nav: true
 nav_order: 2
 ---
