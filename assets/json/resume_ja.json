@@ -5,7 +5,7 @@
     "image": "",
     "email": "hiroshima-kei-st@ynu.jp",
     "url": "https://KeiHiroshima.github.io",
-    "summary": "問題設定が曖昧でデータストリームが非定常といった実世界の環境において、機械学習システムが効率よく最適化できるようになることを目指して研究しています。具体的な研究テーマは、継続学習における嗜好対応モデルマージと、LLMを用いたブラックボックス最適化の自動定式化・アルゴリズム選択の2つです。機械学習と最適化の融合に広く関心を持っています。",
+    "summary": "問題設定が抽象的，データストリームが非定常といった実世界の環境において、機械学習システムが効率よく最適化・学習できるようになることを目指して研究しています。具体的な研究テーマは、継続学習における嗜好対応モデルマージと、LLMを用いたブラックボックス最適化の自動定式化・アルゴリズム選択の2つです。機械学習と最適化の融合に広く関心を持っています。",
     "location": {
       "city": "横浜",
       "countryCode": "JP",
@@ -21,7 +21,9 @@
       "startDate": "2025-04-01",
       "endDate": "2026-03-31",
       "summary": "",
-      "highlights": ["担当講義：数理・データサイエンス・AI入門"]
+      "highlights": [
+        "担当講義：数理・データサイエンス・AI入門"
+      ]
     }
   ],
   "volunteer": [],
@@ -34,7 +36,9 @@
       "studyType": "博士課程",
       "startDate": "2025-04-01",
       "endDate": "",
-      "courses": ["2029年3月 修了予定"]
+      "courses": [
+        "2029年3月 修了予定"
+      ]
     },
     {
       "institution": "シドニー工科大学 Faculty of Engineering and Information Technology",
@@ -77,21 +81,19 @@
     }
   ],
   "certificates": [],
-  "publications": [
-    {
-      "name": "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems",
-      "publisher": "NeurIPS 2026 Evaluations and Datasets Track",
-      "releaseDate": "2026-05-05",
-      "url": "",
-      "summary": "Yutaro Yamada, Kei Hiroshima, Nozomu Yoshinari, Kento Uchida, Shinichi Shirakawa."
-    }
-  ],
   "skills": [
     {
       "name": "研究領域",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["機械学習", "ブラックボックス最適化", "継続学習", "自然言語処理", "転移学習", "人工知能"]
+      "keywords": [
+        "機械学習",
+        "継続学習",
+        "転移学習",
+        "ブラックボックス最適化",
+        "自然言語処理",
+        "人工知能"
+      ]
     }
   ],
   "languages": [

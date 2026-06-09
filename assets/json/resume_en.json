@@ -21,7 +21,9 @@
       "startDate": "2025-04-01",
       "endDate": "2026-03-31",
       "summary": "",
-      "highlights": ["Course: Introduction to Mathematics, Data Science and AI."]
+      "highlights": [
+        "Course: Introduction to Mathematics, Data Science and AI."
+      ]
     }
   ],
   "volunteer": [],
@@ -34,7 +36,9 @@
       "studyType": "Ph.D. Student",
       "startDate": "2025-04-01",
       "endDate": "",
-      "courses": ["Expected graduation: spring 2029."]
+      "courses": [
+        "Expected graduation: spring 2029."
+      ]
     },
     {
       "institution": "Faculty of Engineering and Information Technology, University of Technology Sydney",
@@ -77,15 +81,6 @@
     }
   ],
   "certificates": [],
-  "publications": [
-    {
-      "name": "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems",
-      "publisher": "NeurIPS 2026 Evaluations and Datasets Track",
-      "releaseDate": "2026-05-05",
-      "url": "",
-      "summary": "Yutaro Yamada, Kei Hiroshima, Nozomu Yoshinari, Kento Uchida, Shinichi Shirakawa."
-    }
-  ],
   "skills": [
     {
       "name": "Research Areas",
@@ -93,10 +88,10 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Machine Learning",
-        "Black-box Optimization",
         "Continual Learning",
-        "Natural Language Processing",
         "Transfer Learning",
+        "Black-box Optimization",
+        "Natural Language Processing",
         "Artificial Intelligence"
       ]
     }
