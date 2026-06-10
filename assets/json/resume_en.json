@@ -5,7 +5,7 @@
     "image": "",
     "email": "hiroshima-kei-st@ynu.jp",
     "url": "https://KeiHiroshima.github.io",
-    "summary": "I study how machine learning systems can adapt and optimize efficiently in real-world settings, where problems are underspecified and data arrives sequentially in non-stationary streams. My work spans preference-aware model merging for continual learning and LLM-driven formulation and algorithm selection for black-box optimization. I am broadly interested in closing the gap between machine learning and optimization.",
+    "summary": "I study how machine learning systems can adapt and optimize efficiently in real-world settings, where data arrives sequentially in non-stationary streams and problems are underspecified. My work spans preference-aware model merging for continual learning and LLM-driven auto-formulation and algorithm selection for black-box optimization. I am broadly interested in continual learning and closing the gap between machine learning and optimization.",
     "location": {
       "city": "Yokohama",
       "countryCode": "JP",
@@ -21,7 +21,9 @@
       "startDate": "2025-04-01",
       "endDate": "2026-03-31",
       "summary": "",
-      "highlights": ["Course: Introduction to Mathematics, Data Science and AI."]
+      "highlights": [
+        "Course: Introduction to Mathematics, Data Science and AI."
+      ]
     }
   ],
   "volunteer": [],
@@ -34,7 +36,9 @@
       "studyType": "Ph.D. Student",
       "startDate": "2025-04-01",
       "endDate": "",
-      "courses": ["Expected graduation: spring 2029."]
+      "courses": [
+        "Expected graduation: spring 2029."
+      ]
     },
     {
       "institution": "Faculty of Engineering and Information Technology, University of Technology Sydney",
@@ -83,12 +87,12 @@
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
+        "Artificial Intelligence",
         "Machine Learning",
         "Continual Learning",
         "Transfer Learning",
         "Black-box Optimization",
-        "Natural Language Processing",
-        "Artificial Intelligence"
+        "Natural Language Processing"
       ]
     }
   ],
