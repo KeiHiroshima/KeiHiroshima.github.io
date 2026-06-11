@@ -127,7 +127,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'SNS',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=eDwf4zYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=2nqp4DYAAAAJ", "_blank");
         },
       },{
           id: 'lang-en',
