@@ -21,9 +21,7 @@
       "startDate": "2025-04-01",
       "endDate": "2026-03-31",
       "summary": "",
-      "highlights": [
-        "担当講義：数理・データサイエンス・AI入門"
-      ]
+      "highlights": ["担当講義：数理・データサイエンス・AI入門"]
     }
   ],
   "volunteer": [],
@@ -36,9 +34,7 @@
       "studyType": "博士課程",
       "startDate": "2025-04-01",
       "endDate": "",
-      "courses": [
-        "2029年3月 修了予定"
-      ]
+      "courses": ["2029年3月 修了予定"]
     },
     {
       "institution": "シドニー工科大学 Faculty of Engineering and Information Technology",
@@ -86,14 +82,7 @@
       "name": "研究領域",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "人工知能",
-        "機械学習",
-        "継続学習",
-        "転移学習",
-        "ブラックボックス最適化",
-        "自然言語処理"
-      ]
+      "keywords": ["人工知能", "機械学習", "継続学習", "転移学習", "ブラックボックス最適化", "自然言語処理"]
     }
   ],
   "languages": [
