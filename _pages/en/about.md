@@ -28,8 +28,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I study how machine learning systems can adapt and optimize efficiently in real-world settings — where problems are underspecified and data arrives sequentially in non-stationary streams. My work spans preference-aware model merging for continual learning, where models must retain knowledge across sequential tasks without catastrophic forgetting, and LLM-driven formulation and algorithm selection for black-box optimization, where problems are described only in natural language rather than explicit mathematical formulations. I am broadly interested in closing the gap between ML and optimization, and in understanding what happens inside models when they reason about structure.
-I am expected to graduate in spring 2028 and am looking for research or engineering roles at the intersection of learning and optimization.
+
+I am broadly interested in recognition with machine learning models, and in bridging machine learning and optimization. In my PhD, I study how machine learning models can learn continually and efficiently, and how large language models (LLMs) can automate black-box optimization. My research spans two themes: the development of dynamic, preference-aware model merging algorithms for continual learning, and LLM-driven automatic formulation and algorithm selection for black-box optimization. The former addresses knowledge retention across sequential tasks — avoiding catastrophic forgetting — while the latter focuses on identifying the search space of an optimization problem and selecting an appropriate algorithm from natural language descriptions alone.
+
+I am expected to graduate in spring 2028, and am seeking research or engineering roles at the intersection of machine learning and optimization. I am currently on the job market.
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
