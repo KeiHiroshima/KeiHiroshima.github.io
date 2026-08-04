@@ -34,12 +34,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ja/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
+        },{id: "nav-activities",
+          title: "activities",
           description: "",
           section: "ナビゲーションメニュー",
           handler: () => {
-            window.location.href = "/ja/teaching/";
+            window.location.href = "/ja/activities/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
