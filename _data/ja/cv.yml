@@ -18,7 +18,7 @@
       year: 2025 - 現在
       description:
         - 白川・内田研究室
-        - 2029年3月 修了予定
+        - 2028年3月 修了予定
     - title: 修士課程（情報学）
       institution: 横浜国立大学 環境情報学府
       year: 2022 - 2025
@@ -58,7 +58,7 @@
   type: time_table
   contents:
     - title: "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems"
-      institution: NeurIPS 2026 Evaluations and Datasets Track
+      # institution: NeurIPS 2026 Evaluations and Datasets Track
       year: 2026
       description:
         - Yutaro Yamada, Kei Hiroshima, Nozomu Yoshinari, Kento Uchida, Shinichi Shirakawa.
