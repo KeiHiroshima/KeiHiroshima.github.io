@@ -58,7 +58,7 @@
   type: time_table
   contents:
     - title: "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems"
-      institution: NeurIPS 2026 Evaluations and Datasets Track
+      # institution: NeurIPS 2026 Evaluations and Datasets Track
       year: 2026
       description:
         - Yutaro Yamada, Kei Hiroshima, Nozomu Yoshinari, Kento Uchida, Shinichi Shirakawa.
