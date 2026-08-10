@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-08-10'
 papers:
+  2nqp4DYAAAAJ:d1gkVwhDpl0C:
+    citations: 0
+    title: 'BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems'
+    year: '2026'
   2nqp4DYAAAAJ:u-x6o8ySG0sC:
     citations: 0
     title: Enhancing atherosclerosis risk prediction with strategic feature and case selections in large language model
