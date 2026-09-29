@@ -27,6 +27,8 @@ In the **2025 academic year**, I served as an instructor for **"Introduction to 
 
 The course helps students acquire the foundational literacy needed to make use of mathematics, data science, and AI in everyday life and work. It emphasizes understanding the data around us, reading and visualising data, and leanrning the fundamentals of optimisation and machine learning such as lenear regression, convolution network, and transformer.
 
+<!-- TODO: fill in and uncomment when ready (hidden because it still contains placeholders)
+
 <br>
 
 ## Internship
@@ -48,3 +50,5 @@ The course helps students acquire the foundational literacy needed to make use o
 | Organization | [Organization Name] |
 | Period       | [Period]            |
 | Description  | [Description]       |
+
+-->

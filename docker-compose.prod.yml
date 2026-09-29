@@ -1,0 +1,35 @@
+# production-equivalent build, mirroring .github/workflows/deploy.yml:
+#   1. site:     JEKYLL_ENV=production jekyll build   -> ./_site
+#   2. purgecss: remove unused CSS from ./_site
+#   3. web:      serve ./_site with nginx            -> http://localhost:8081
+# usage: docker compose -f docker-compose.prod.yml up --build
+# note: do not run together with docker-compose.yml, both write to ./_site
+services:
+  site:
+    image: keihiroshima-site:local
+    build: .
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=production
+    command: ["bash", "-c", "git config --global --add safe.directory '*' && bundle exec jekyll build && touch _site/.nojekyll"]
+
+  purgecss:
+    image: node:lts-alpine
+    working_dir: /srv/jekyll
+    volumes:
+      - .:/srv/jekyll
+    command: ["npx", "--yes", "purgecss", "-c", "purgecss.config.js"]
+    depends_on:
+      site:
+        condition: service_completed_successfully
+
+  web:
+    image: nginx:alpine
+    ports:
+      - 8081:80
+    volumes:
+      - ./_site:/usr/share/nginx/html:ro
+    depends_on:
+      purgecss:
+        condition: service_completed_successfully

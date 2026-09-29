@@ -190,6 +190,8 @@ exclude:
   - package-lock.json
   - purgecss.config.js
   - README.md
+  - README.al-folio.md
+  - docker-compose.prod.yml
   - vendor
 keep_files:
   - CNAME

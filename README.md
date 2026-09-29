@@ -1,562 +1,265 @@
-# multi-language-al-folio
+# KeiHiroshima.github.io
 
-<div align="center">
+廣島 圭（Kei Hiroshima）の研究者ポートフォリオサイトのソースです。
 
-[![Preview](readme_preview/al-folio-preview.png)](https://george-gca.github.io/multi-language-al-folio/)
-
-**A multilingual version of the [al-folio theme](https://github.com/alshedivat/al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
-
----
-
-[![deploy](https://github.com/george-gca/multi-language-al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/george-gca/multi-language-al-folio/actions/workflows/deploy.yml)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fd22b3da-3970-4612-8dee-5579601589a3/deploy-status)](https://app.netlify.com/sites/multi-language-al-folio/deploys)
-[![Maintainers](https://img.shields.io/badge/maintainers-1-success.svg)](#maintainers)
-[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/george-gca/multi-language-al-folio/graphs/contributors/)
-
-[![Docker Image Version](https://img.shields.io/docker/v/georgegca/multi-language-al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/georgegca/multi-language-al-folio)
-[![Docker Image Size](https://img.shields.io/docker/image-size/georgegca/multi-language-al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/georgegca/multi-language-al-folio)
-[![Docker Pulls](https://img.shields.io/docker/pulls/georgegca/multi-language-al-folio?color=blueviolet)](https://hub.docker.com/r/georgegca/multi-language-al-folio)
-
-[![GitHub release](https://img.shields.io/github/v/release/george-gca/multi-language-al-folio)](https://github.com/george-gca/multi-language-al-folio/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/george-gca/multi-language-al-folio?color=blue)](https://github.com/george-gca/multi-language-al-folio/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/george-gca/multi-language-al-folio)](https://github.com/george-gca/multi-language-al-folio)
-[![GitHub forks](https://img.shields.io/github/forks/george-gca/multi-language-al-folio)](https://github.com/george-gca/multi-language-al-folio/fork)
-
-[![Code Wiki](https://img.shields.io/badge/Code_Wiki-ask_about_repo-blue?logo=googlegemini)](https://codewiki.google/github.com/george-gca/multi-language-al-folio)
-[![DeepWiki](https://img.shields.io/badge/DeepWiki-ask_about_repo-lightcyan)](https://deepwiki.com/george-gca/multi-language-al-folio)
-
-[![pt-br](https://img.shields.io/badge/leia--me-pt--br-green.svg)](README.pt-br.md)
-
-</div>
-
-## User community
-
-The vibrant community of **al-folio** users is growing!
-Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
-Check out the community webpages below.
-Feel free to add your own page(s) by sending a PR.
-
-<table>
-<tr>
-<td>Academics</td>
-<td>
-<a href="https://martinbulla.github.io" target="_blank">★</a>
-<a href="https://maruan.alshedivat.com" target="_blank">★</a>
-<a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
-<a href="https://maithraraghu.com" target="_blank">★</a>
-<a href="https://platanios.org" target="_blank">★</a>
-<a href="https://otiliastr.github.io" target="_blank">★</a>
-<a href="https://www.maths.dur.ac.uk/~sxwc62/" target="_blank">★</a>
-<a href="https://jessachandler.com/" target="_blank">★</a>
-<a href="https://mayankm96.github.io/" target="_blank">★</a>
-<a href="https://markdean.info/" target="_blank">★</a>
-<a href="https://kakodkar.github.io/" target="_blank">★</a>
-<a href="https://sahirbhatnagar.com/" target="_blank">★</a>
-<a href="https://spd.gr/" target="_blank">★</a>
-<a href="https://jay-sarkar.github.io/" target="_blank">★</a>
-<a href="https://aborowska.github.io/" target="_blank">★</a>
-<a href="https://aditisgh.github.io/" target="_blank">★</a>
-<a href="https://alexhaydock.co.uk/" target="_blank">★</a>
-<a href="https://alixkeener.net/" target="_blank">★</a>
-<a href="https://andreea7b.github.io/" target="_blank">★</a>
-<a href="https://rishabhjoshi.github.io/" target="_blank">★</a>
-<a href="https://sheelabhadra.github.io/" target="_blank">★</a>
-<a href="https://giograno.me/" target="_blank">★</a>
-<a href="https://immsrini.github.io/" target="_blank">★</a>
-<a href="https://apooladian.github.io/" target="_blank">★</a>
-<a href="https://chinmoy-dutta.github.io/" target="_blank">★</a>
-<a href="https://liamcli.com/" target="_blank">★</a>
-<a href="https://yoonholee.com/" target="_blank">★</a>
-<a href="https://zrqiao.github.io/" target="_blank">★</a>
-<a href="https://abstractgeek.github.io/" target="_blank">★</a>
-<a href="https://www.compphys.de/" target="_blank">★</a>
-<a href="https://julianstreyczek.github.io" target="_blank">★</a>
-<a href="https://sdaza.com" target="_blank">★</a>
-<a href="https://niweera.gq" target="_blank">★</a>
-<a href="https://www.alihkw.com" target="_blank">★</a>
-<a href="https://amirpourmand.ir" target="_blank">★</a>
-<a href="https://scottleechua.github.io" target="_blank">★</a>
-<a href="https://sk1y101.github.io" target="_blank">★</a>
-<a href="https://yyang768osu.github.io" target="_blank">★</a>
-<a href="https://veedata.github.io" target="_blank">★</a>
-<a href="https://K-Wu.github.io" target="_blank">★</a>
-<a href="https://amalawilson.com" target="_blank">★</a>
-<a href="https://tirtharajdash.github.io" target="_blank">★</a>
-<a href="https://carolinacarreira.github.io" target="_blank">★</a>
-<a href="https://manandey.github.io" target="_blank">★</a>
-<a href="https://johanneshoerner.github.io" target="_blank">★</a>
-<a href="https://ioannismavromatis.com" target="_blank">★</a>
-<a href="https://taidnguyen.github.io" target="_blank">★</a>
-<a href="https://lbugnon.github.io" target="_blank">★</a>
-<a href="https://joahannes.github.io" target="_blank">★</a>
-<a href="https://dominikstrb.github.io" target="_blank">★</a>
-<a href="https://tylerbarna.com" target="_blank">★</a>
-<a href="https://daviddmc.github.io/" target="_blank">★</a>
-<a href="https://andreaskuster.ch/" target="_blank">★</a>
-<a href="https://ellisbrown.github.io/" target="_blank">★</a>
-<a href="https://djherron.github.io/" target="_blank">★</a>
-<a href="https://rodosingh.github.io/" target="_blank">★</a>
-<a href="https://vdivakar.github.io/" target="_blank">★</a>
-<a href="https://george-gca.github.io/" target="_blank">★</a>
-<a href="https://bashirkazimi.github.io/" target="_blank">★</a>
-<a href="https://dohaison.github.io/" target="_blank">★</a>
-<a href="https://raphaaal.github.io/" target="_blank">★</a>
-<a href="https://varuniyer.info/" target="_blank">★</a>
-<a href="https://yukimasano.github.io/" target="_blank">★</a>
-<a href="https://hashe037.github.io/" target="_blank">★</a>
-<a href="https://wang-boyu.github.io/" target="_blank">★</a>
-<a href="https://qingqingchen.info" target="_blank">★</a>
-<a href="https://bajinsheng.github.io/" target="_blank">★</a>
-<a href="https://www.silviofanzon.com/" target="_blank">★</a>
-<a href="https://kaikaiyao.github.io/" target="_blank">★</a>
-<a href="https://alchemz.github.io/" target="_blank">★</a>
-<a href="https://samadamday.com/" target="_blank">★</a>
-<a href="https://fanpu.io/" target="_blank">★</a>
-<a href="https://abigalekim.github.io/" target="_blank">★</a>
-<a href="https://lucasresck.github.io/" target="_blank">★</a>
-<a href="https://users.wpi.edu/~lfichera/" target="_blank">★</a>
-<a href="https://anmspro.github.io/" target="_blank">★</a>
-<a href="https://berlyne.net/" target="_blank">★</a>
-<a href="https://filippomazzoli.github.io/" target="_blank">★</a>
-<a href="https://www.escontrela.me/" target="_blank">★</a>
-<a href="https://raffaem.github.io/" target="_blank">★</a>
-<a href="https://cbueth.de/" target="_blank">★</a>
-<a href="https://kyleaoman.github.io/" target="_blank">★</a>
-<a href="https://decwest.github.io/" target="_blank">★</a>
-<a href="https://www.jedburkat.com" target="_blank">★</a>
-<a href="https://hrzhang.me" target="_blank">★</a>
-<a href="https://kudhru.github.io/" target="_blank">★</a>
-<a href="https://mbarbetti.github.io/" target="_blank">★</a>
-<a href="https://www.zhivotenko.com/" target="_blank">★</a>
-<a href="https://giordanodaloisio.github.io/" target="_blank">★</a>
-<a href="https://aadityaura.github.io/" target="_blank">★</a>
-<a href="https://abhinav-mehta.github.io/" target="_blank">★</a>
-<a href="https://shubhashisroydipta.com/" target="_blank">★</a>
-<a href="https://astanziola.github.io" target="_blank">★</a>
-<a href="https://tinkerer.in" target="_blank">★</a>
-<a href="https://afraniomelo.github.io/en/" target="_blank">★</a>
-<a href="https://jonaruthardt.github.io" target="_blank">★</a>
-<a href="https://www.zla.app/" target="_blank">★</a>
-<a href="https://stavros.github.io" target="_blank">★</a>
-<a href="https://ericslyman.com" target="_blank">★</a>
-<a href="https://ztjona.github.io/" target="_blank">★</a>
-<a href="https://chrischoi314.github.io" target="_blank">★</a>
-<a href="https://riccobelli.faculty.polimi.it" target="_blank">★</a>
-<a href="https://kishanved.tech/" target="_blank">★</a>
-<a href="https://abhilesh.github.io/" target="_blank">★</a>
-<a href="https://jackjburnett.github.io/" target="_blank">★</a>
-<a href="https://physics-morris.github.io/" target="_blank">★</a>
-<a href="https://sraf.ir" target="_blank">★</a>
-<a href="https://acad.garywei.dev/" target="_blank">★</a>
-<a href="https://tonideleo.github.io/" target="_blank">★</a>
-<a href="https://alonkellner.com/" target="_blank">★</a>
-<a href="https://berylbir.github.io/" target="_blank">★</a>
-<a href="https://global-anomaly.github.io/" target="_blank">★</a>
-<a href="https://mingsun-kaust.github.io/" target="_blank">★</a>
-<a href="https://hdocmsu.github.io/" target="_blank">★</a>
-<a href="https://trandangtrungduc.github.io/" target="_blank">★</a>
-<a href="https://kinghowler.github.io/" target="_blank">★</a>
-<a href="https://anurye.github.io/" target="_blank">★</a>
-<a href="https://charlie-xiao.github.io/" target="_blank">★</a>
-<a href="https://giuseppeperelli.github.io/" target="_blank">★</a>
-<a href="https://shlee-lab.github.io/" target="_blank">★</a>
-<a href="https://devos50.github.io/" target="_blank">★</a>
-<a href="https://vmooers.github.io/" target="_blank">★</a>
-<a href="https://jpfonseca.github.io/" target="_blank">★</a>
-<a href="https://dmitryryumin.github.io/" target="_blank">★</a>
-<a href="https://alexiglad.github.io/" target="_blank">★</a>
-<a href="https://nishanthjkumar.com/" target="_blank">★</a>
-<a href="https://joszuijderwijk.nl/" target="_blank">★</a>
-<a href="https://d-jiao.github.io/" target="_blank">★</a>
-<a href="https://cbuelt.github.io/" target="_blank">★</a>
-<a href="https://mehrdad-noori.github.io/" target="_blank">★</a>
-<a href="https://arthurclerjon.github.io/" target="_blank">★</a>
-<a href="https://eilamshapira.com/" target="_blank">★</a>
-<a href="https://freifrauvonbleifrei.github.io/" target="_blank">★</a>
-<a href="https://thomasbourke1.github.io/" target="_blank">★</a>
-<a href="https://siddharthsule.com/" target="_blank">★</a>
-<a href="https://waynexucn.github.io/" target="_blank">★</a>
-<a href="https://zlatanajanovic.com/" target="_blank">★</a>
-<a href="https://mchadolias.github.io/" target="_blank">★</a>
-<a href="https://syanyong.github.io/" target="_blank">★</a>
-<a href="https://jucheval.github.io/" target="_blank">★</a>
-<a href="https://j1yoo.github.io/" target="_blank">★</a>
-<a href="https://zhoji.github.io/" target="_blank">★</a>
-</td>
-</tr>
-<tr>
-<td>Labs</td>
-<td>
-<a href="https://www.haylab.caltech.edu/" target="_blank">★</a>
-<a href="https://sjkimlab.github.io/" target="_blank">★</a>
-<a href="https://systemconsultantgroup.github.io/scg-folio/" target="_blank">★</a>
-<a href="https://decisionlab.ucsf.edu/" target="_blank">★</a>
-<a href="https://programming-group.com/" target="_blank">★</a>
-<a href="https://sailing-lab.github.io/" target="_blank">★</a>
-<a href="https://inbt.jhu.edu/epidiagnostics/" target="_blank">★</a>
-<a href="https://www.nuesl.org/" target="_blank">★</a>
-<a href="https://big-culture.github.io/" target="_blank">★</a>
-<a href="https://martinbulla.github.io/bullab/" target="_blank">★</a>
-<a href="https://gpforesteyes.github.io/" target="_blank">★</a>
-</td>
-</tr>
-<tr>
-<td>Courses</td>
-<td>
-CMU PGM (<a href="https://sailinglab.github.io/pgm-spring-2019/" target="_blank">S-19</a>) <br>
-CMU DeepRL (<a href="https://cmudeeprl.github.io/403_website/" target="_blank">S-21</a>, <a href="https://cmudeeprl.github.io/703website_f21/" target="_blank">F-21</a>, <a href="https://cmudeeprl.github.io/403website_s22/" target="_blank">S-22</a>, <a href="https://cmudeeprl.github.io/703website_f22/" target="_blank">F-22</a>, <a href="https://cmudeeprl.github.io/403website_s23/" target="_blank">S-23</a>, <a href="https://cmudeeprl.github.io/703website_f23/" target="_blank">F-23</a>) <br>
-CMU MMML (<a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2020/" target="_blank">F-20</a>, <a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2022/" target="_blank">F-22</a>) <br>
-CMU AMMML (<a href="https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/" target="_blank">S-22</a>, <a href="https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2023/" target="_blank">S-23</a>) <br>
-CMU ASI (<a href="https://cmu-multicomp-lab.github.io/asi-course/spring2023/" target="_blank">S-23</a>) <br>
-CMU Distributed Systems (<a href="https://andrew.cmu.edu/course/15-440/" target="_blank">S-24</a>)
-</td>
-</tr>
-<tr>
-<td>Conferences & workshops</td>
-<td>
-ICLR Blog Post Track (<a href="https://iclr-blogposts.github.io/2023/" target="_blank">2023</a>, <a href="https://iclr-blogposts.github.io/2024/about" target="_blank">2024</a>) <br>
-ML Retrospectives (NeurIPS: <a href="https://ml-retrospectives.github.io/neurips2019/" target="_blank">2019</a>, <a href="https://ml-retrospectives.github.io/neurips2020/" target="_blank">2020</a>; ICML: <a href="https://ml-retrospectives.github.io/icml2020/" target="_blank">2020</a>) <br>
-HAMLETS (NeurIPS: <a href="https://hamlets-workshop.github.io/" target="_blank">2020</a>) <br>
-ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" target="_blank">2020</a>, <a href="https://i-cant-believe-its-not-better.github.io/neurips2021/" target="_blank">2021</a>) <br>
-Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target="_blank">2021</a>) <br>
-Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.github.io/" target="_blank">2022</a>)<br>
-Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_blank"> 2022</a>) <br>
-Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.github.io/" target="_blank"> 2023</a>)<br>
-Beyond Vision: Physics meets AI (ICIAP: <a href="https://physicsmeetsai.github.io/beyond-vision/" target="_blank">2023</a>) <br>
-Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github.io/" target="_blank">2023</a>) <br>
-Workshop on Structured Probabilistic Inference & Generative Modeling (ICML: <a href="https://spigmworkshop.github.io/" target="_blank">2023</a>, <a href="https://spigmworkshop2024.github.io/" target="_blank">2024</a>)
-</td>
-</tr>
-</table>
-
-## Lighthouse PageSpeed Insights
-
-### Desktop
-
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/george-gca/multi-language-al-folio/blob/main/lighthouse_results/desktop/george_gca_github_io_multi_language_al_folio_.html)
-
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgeorge-gca.github.io%2Fmulti-language-al-folio%2F&form_factor=desktop)
-
-### Mobile
-
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/george-gca/multi-language-al-folio/blob/main/lighthouse_results/mobile/george_gca_github_io_multi_language_al_folio_.html)
-
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgeorge-gca.github.io%2Fmulti-language-al-folio%2F&form_factor=mobile)
-
-## Table Of Contents
-
-<!--ts-->
-
-- [multi-language-al-folio](#multi-language-al-folio)
-  - [User community](#user-community)
-  - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
-    - [Desktop](#desktop)
-    - [Mobile](#mobile)
-  - [Table Of Contents](#table-of-contents)
-  - [Getting started](#getting-started)
-  - [Installing and Deploying](#installing-and-deploying)
-  - [Customizing](#customizing)
-  - [GitHub Copilot Agents](#github-copilot-agents)
-    - [Customization Agent](#customization-agent)
-    - [Documentation Agent](#documentation-agent)
-  - [Features](#features)
-    - [Multi Language Support](#multi-language-support)
-    - [Light/Dark Mode](#lightdark-mode)
-    - [CV](#cv)
-    - [People](#people)
-    - [Publications](#publications)
-    - [Collections](#collections)
-    - [Layouts](#layouts)
-      - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math &amp; code](#full-support-for-math--code)
-      - [Photos, Audio, Video and more](#photos-audio-video-and-more)
-    - [Other features](#other-features)
-      - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
-      - [Theming](#theming)
-      - [Social media previews](#social-media-previews)
-      - [Atom (RSS-like) Feed](#atom-rss-like-feed)
-      - [Related posts](#related-posts)
-      - [Code quality checks](#code-quality-checks)
-  - [FAQ](#faq)
-  - [Contributing](#contributing)
-    - [Maintainers](#maintainers)
-    - [All Contributors](#all-contributors)
-  - [Star History](#star-history)
-  - [License](#license)
-
-<!--te-->
-
-## Getting started
-
-Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/). Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)! Why write a blog? Read [Rachel Thomas blog post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045).
-
-## Installing and Deploying
-
-For installation and deployment details please refer to [INSTALL.md](INSTALL.md).
-
-## Customizing
-
-For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).
-
-## GitHub Copilot Agents
-
-This repository includes two specialized GitHub Copilot agents to enhance your development experience:
-
-### Customization Agent
-
-The **Customization Agent** helps you personalize your al-folio website by:
-
-- Guiding you through configuration changes step-by-step
-- Modifying files directly in your repository
-- Explaining technical concepts in plain language (great for users without coding experience)
-- Assisting with common tasks like updating your CV, adding publications, creating blog posts, and customizing themes
-
-See [CUSTOMIZE.md § GitHub Copilot Customization Agent](CUSTOMIZE.md#github-copilot-customization-agent) for detailed usage instructions.
-
-### Documentation Agent
-
-The **Documentation Agent** maintains clear and up-to-date project documentation by:
-
-- Updating documentation files when features change
-- Writing in a style accessible to academics and researchers
-- Keeping documentation synchronized with the codebase
-- Following documentation best practices
-
-See [CONTRIBUTING.md § GitHub Copilot Agents](CONTRIBUTING.md#github-copilot-agents) for more information.
-
-> **Requirements:** Both agents require a [GitHub Copilot](https://github.com/features/copilot) subscription. For more information about GitHub Copilot and how to use agents, see the [GitHub Copilot documentation](https://docs.github.com/en/copilot).
-
-## Features
-
-### Multi Language Support
-
-In a previous version this was achieved using the [jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin), but since the plugin repository has been archived it was replaced by the [polyglot](https://github.com/untra/polyglot) plugin. This plugin was created based on the functionalities of the [jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin) and it is actively maintained. For more information about this change, see [UPGRADING.md](UPGRADING.md).
-
-The default language (and used as a fallback language when a link for a different language is not found) will be the language defined as `default_lang` in the [\_config.yml](_config.yml) file. When using two languages, the theme will show a button in the header that switches to the other language directly.
-
-![Switch language](readme_preview/multi-language-diff-1.png)
-![Switch back language](readme_preview/multi-language-diff-2.png)
-
-It is also possible to display the country flag instead of the language name.
-
-![Use country flag instead of language name](readme_preview/country_flag.png)
-
-When using three or more, it will be created a dropdown menu with all the available languages.
-
-![Switch language between 3 or more](readme_preview/multi-language-3-or-more.png)
-
-Note that throughout the [README.md](README.md) and [CUSTOMIZE.md](CUSTOMIZE.md) files, the default language is English (LANG = en-us). You must have an equivalent file or path for each language you have defined in [\_config.yml](_config.yml). For example, if you have defined `languages: ["en-us", "pt-br"]`, you must have 2 versions of the file `_data/LANG/cv.yml`: [\_data/en-us/cv.yml](_data/en-us/cv.yml) and [\_data/pt-br/cv.yml](_data/pt-br/cv.yml).
+- 公開URL: <https://KeiHiroshima.github.io>（英語）/ <https://KeiHiroshima.github.io/ja/>（日本語）
+- 構成: [Jekyll](https://jekyllrb.com/) + [multi-language-al-folio](https://github.com/george-gca/multi-language-al-folio) テーマ（[al-folio](https://github.com/alshedivat/al-folio) の多言語版）
+- 多言語化: `jekyll-polyglot`（`en` がデフォルト、`ja` は `/ja/` 以下に出力）
+- ホスティング: GitHub Pages（`main` への push → GitHub Actions でビルド → `gh-pages` ブランチへデプロイ）
+- テーマ本来の README は [README.al-folio.md](README.al-folio.md) に残しています（テーマの機能・カスタマイズ方法の詳細はそちらを参照）。
 
 ---
 
-### Light/Dark Mode
+## 目次
 
-This template has a built-in light/dark mode. It detects the user preferred color scheme and automatically switches to it. You can also manually switch between light and dark mode by clicking on the sun/moon icon in the top right corner of the page.
-
-<p align="center">
-<img src="readme_preview/light.png" width=400>
-<img src="readme_preview/dark.png" width=400>
-</p>
-
----
-
-### CV
-
-There are currently 2 different ways of generating the CV page content. The first one is by using a json file located in [assets/json/resume_LANG.json](assets/json/resume_en-us.json). It is a [known standard](https://jsonresume.org/) for creating a CV programmatically. The second one, currently used as a fallback when the json file is not found, is by using a yml file located in [\_data/LANG/cv.yml](_data/en-us/cv.yml). This was the original way of creating the CV page content and since it is more human readable than a json file we decided to keep it as an option.
-
-What this means is, if there is no resume data defined in [\_config.yml](_config.yml) and loaded via a json file, it will load the contents of [\_data/LANG/cv.yml](_data/en-us/cv.yml) as fallback.
-
-[![CV Preview](readme_preview/cv.png)](https://george-gca.github.io/multi-language-al-folio/cv/)
+1. [クイックスタート（Docker）](#1-クイックスタートdocker)
+2. [デプロイの仕組み](#2-デプロイの仕組み)
+3. [ページ ↔ データ対応表](#3-ページ--データ対応表)
+4. [全ページ共通の要素](#4-全ページ共通の要素)
+5. [よくある更新作業](#5-よくある更新作業)
+6. [既知の注意点・未整備事項](#6-既知の注意点未整備事項)
+7. [ディレクトリ構成](#7-ディレクトリ構成)
+8. [トラブルシューティング](#8-トラブルシューティング)
 
 ---
 
-### People
+## 1. クイックスタート（Docker）
 
-You can create a people page if you want to feature more than one person. Each person can have its own short bio, profile picture, and you can also set if every person will appear at the same or opposite sides.
+前提: Docker Desktop（または Docker Engine + Compose v2）が起動していること。
+イメージはリポジトリ内の [Dockerfile](Dockerfile) からローカルビルドされます（タグ: `keihiroshima-site:local`）。初回は数分かかります。
 
-[![People Preview](readme_preview/people.png)](https://george-gca.github.io/multi-language-al-folio/people/)
+### 1-1. 開発用サーバ（編集しながら確認）
 
----
+```bash
+docker compose up            # 初回・Dockerfile/Gemfile 変更後は --build を付ける
+# → http://localhost:8080      （英語）
+# → http://localhost:8080/ja/  （日本語）
+docker compose down          # 停止
+```
 
-### Publications
+- ファイルを保存すると自動で再ビルドされ、ブラウザも LiveReload されます。
+- `_config.yml` を変更した場合は [bin/entry_point.sh](bin/entry_point.sh) がそれを検知して Jekyll を自動再起動します。
+- `JEKYLL_ENV=development` で動くため、本番と一部挙動（minify 等）が異なります。
 
-Your publications' page is generated automatically from your BibTex bibliography. Simply edit [\_bibliography/papers.bib](_bibliography/papers.bib). You can also add new `*.bib` files and customize the look of your publications however you like by editing [\_pages/LANG/publications.md](_pages/en-us/publications.md). By default, the publications will be sorted by year and the most recent will be displayed first. You can change this behavior and more in the `Jekyll Scholar` section in [\_config.yml](_config.yml) file.
+### 1-2. 本番同等ビルド（公開前の最終確認）
 
-You can add extra information to a publication, like a PDF file in the [assets/pdf/](assets/pdf/) directory and add the path to the PDF file in the BibTeX entry with the `pdf` field. Some of the supported fields are: `abstract`, `altmetric`, `arxiv`, `bibtex_show`, `blog`, `code`, `dimensions`, `doi`, `eprint`, `html`, `isbn`, `pdf`, `pmid`, `poster`, `slides`, `supp`, `video`, and `website`.
+GitHub Actions（[.github/workflows/deploy.yml](.github/workflows/deploy.yml)）と同じ手順でビルドし、nginx で配信します。
 
-[![Publications Preview](readme_preview/publications.png)](https://george-gca.github.io/multi-language-al-folio/publications/)
+```bash
+docker compose -f docker-compose.prod.yml up --build
+# 1. site     : JEKYLL_ENV=production で jekyll build → ./_site
+# 2. purgecss : 未使用 CSS を削除
+# 3. web      : nginx で ./_site を配信 → http://localhost:8081
+docker compose -f docker-compose.prod.yml down
+```
 
----
+> [!NOTE]
+> 開発用と本番同等ビルドはどちらも `./_site` に出力するため、**同時に起動しないでください**。
 
-### Collections
+### 1-3. Docker を使わない場合（参考）
 
-This Jekyll theme implements `collections` to let you break up your work into categories. The theme comes with two default collections: `news` and `projects`. Items from the `news` collection are automatically displayed on the home page. Items from the `projects` collection are displayed on a responsive grid on projects page.
+Ruby 3.3 系・Bundler・ImageMagick・Python3（`nbconvert`）が必要です。
 
-[![Projects Preview](readme_preview/projects.png)](https://george-gca.github.io/multi-language-al-folio/projects/)
-
-You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
-
----
-
-### Layouts
-
-**al-folio** comes with stylish layouts for pages and blog posts.
-
-#### The iconic style of Distill
-
-The theme allows you to create blog posts in the [distill.pub](https://distill.pub/) style:
-
-[![Distill Preview](readme_preview/distill.png)](https://george-gca.github.io/multi-language-al-folio/blog/2018/distill/)
-
-For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://george-gca.github.io/multi-language-al-folio/blog/2018/distill/).
-
-#### Full support for math & code
-
-**al-folio** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes). Also supports [chartjs charts](https://www.chartjs.org/), [mermaid diagrams](https://mermaid-js.github.io/mermaid/#/), and [TikZ figures](https://tikzjax.com/).
-
-<p align="center">
-<a href="https://george-gca.github.io/multi-language-al-folio/blog/2015/math/" target="_blank"><img src="readme_preview/math.png" width=400 alt="example of post with math"></a>
-<a href="https://george-gca.github.io/multi-language-al-folio/blog/2015/code/" target="_blank"><img src="readme_preview/code.png" width=400 alt="example of post with code"></a>
-</p>
-
-#### Photos, Audio, Video and more
-
-Photo formatting is made simple using [Bootstrap's grid system](https://getbootstrap.com/docs/4.4/layout/grid/). Easily create beautiful grids within your blog posts and project pages, also with support for [video](https://george-gca.github.io/multi-language-al-folio/blog/2023/videos/) and [audio](https://george-gca.github.io/multi-language-al-folio/blog/2023/audios/) embeds:
-
-<p align="center">
-  <a href="https://george-gca.github.io/multi-language-al-folio/projects/1_project/">
-    <img src="readme_preview/photos-screenshot.png" width="75%">
-  </a>
-</p>
-
----
-
-### Other features
-
-#### GitHub's repositories and user stats
-
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) to display GitHub repositories and user stats on the `/repositories/` page.
-
-[![Repositories Preview](readme_preview/repositories.png)](https://george-gca.github.io/multi-language-al-folio/repositories/)
-
-Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the `/repositories/` page.
-
-You may also use the following codes for displaying this in any other pages.
-
-```html
-<!-- code for GitHub users -->
-{% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %} {% include repository/repo_user.liquid username=user %} {% endfor %}
-</div>
-{% endif %}
-
-<!-- code for GitHub trophies -->
-{% if site.repo_trophies.enabled %} {% for user in site.data.repositories.github_users %} {% if site.data.repositories.github_users.size > 1 %}
-<h4>{{ user }}</h4>
-{% endif %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-</div>
-{% endfor %} {% endif %}
-
-<!-- code for GitHub repositories -->
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %} {% include repository/repo.liquid repository=repo %} {% endfor %}
-</div>
-{% endif %}
+```bash
+bundle install
+bundle exec jekyll serve --livereload   # → http://localhost:4000
 ```
 
 ---
 
-#### Theming
+## 2. デプロイの仕組み
 
-A variety of beautiful theme colors have been selected for you to choose from. The default is purple, but you can quickly change it by editing the `--global-theme-color` variable in the `_sass/_themes.scss` file. Other color variables are listed there as well. The stock theme color options available can be found at [\_sass/\_variables.scss](_sass/_variables.scss). You can also add your own colors to this file assigning each a name for ease of use across the template.
+| 何が起きるか                              | 仕組み                                                                                                                                | 設定ファイル                                                                     |
+| :---------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------- |
+| `main` に push するとサイトが更新される   | GitHub Actions で `jekyll build` → `purgecss` → `gh-pages` ブランチへ push。GitHub Pages は `gh-pages` ブランチを配信                 | [.github/workflows/deploy.yml](.github/workflows/deploy.yml)                     |
+| Google Scholar の被引用数が自動更新される | 月・水・金 0:00 UTC に `bin/update_scholar_citations.py` を実行し、`_data/citations.yml` を自動コミット（→ そのコミットで再デプロイ） | [.github/workflows/update-citations.yml](.github/workflows/update-citations.yml) |
+| PR 時のチェック                           | Prettier 整形チェック、CodeQL など                                                                                                    | `.github/workflows/prettier.yml` ほか                                            |
 
----
-
-#### Social media previews
-
-**al-folio** supports preview images on social media. To enable this functionality you will need to set `serve_og_meta` to `true` in your [\_config.yml](_config.yml). Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
-
-You will then need to configure what image to display in your site's social media previews. This can be configured on a per-page basis, by setting the `og_image` page variable. If for an individual page this variable is not set, then the theme will fall back to a site-wide `og_image` variable, configurable in your [\_config.yml](_config.yml). In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
-
----
-
-#### Atom (RSS-like) Feed
-
-It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers. The feed is reachable simply by typing after your homepage `/feed.xml`. E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
+- **デプロイ対象外の変更**: `README.md` / `README.al-folio.md` の変更だけではデプロイは走りません。
+- GitHub リポジトリの Settings → Pages で「Deploy from a branch: `gh-pages`」になっている必要があります。
+- 本番ビルドの Ruby バージョンは Actions では `3.3.5` 固定、Docker では `ruby:slim`（最新）です。差異が問題になった場合は [Dockerfile](Dockerfile) の `FROM` を `ruby:3.3-slim` に固定してください。
+- `docker-image` / `docker-slim` / `broken-links` / `deploy-docker-tag` などはテーマ作者用のワークフローで、このリポジトリでは実質動作しません（リポジトリ所有者条件で skip されるか、タグ push 時のみ）。
 
 ---
 
-#### Related posts
+## 3. ページ ↔ データ対応表
 
-By default, there will be a related posts section on the bottom of the blog posts. These are generated by selecting the `max_related` most recent posts that share at least `min_common_tags` tags with the current post. If you do not want to display related posts on a specific post, simply add `related_posts: false` to the front matter of the post. If you want to disable it for all posts, simply set `enabled` to false in the `related_blog_posts` section in [\_config.yml](_config.yml).
+凡例: **ページ定義** = URL・タイトル・ナビ表示を決めるファイル / **表示内容の出どころ** = 実際に画面に出る情報を書き換えるときに編集するファイル。
+英語版と日本語版はファイルが**別々**です（`en/` と `ja/`）。片方だけ更新すると言語間で内容がずれるので注意してください。
+
+### 3-1. ナビゲーションに表示されているページ
+
+ナビの並び順は各ページの `nav_order`（小さいほど左）、表示の有無は `nav: true/false` で決まります。ナビ上のラベルは各ページの `title` です。
+
+#### about（トップページ）— `/` , `/ja/`
+
+| 画面上の要素                              | 表示内容の出どころ                                                                                                                  |
+| :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| 氏名（見出し）                            | [\_config.yml](_config.yml) の `first_name` / `middle_name` / `last_name`（`title: blank` のとき氏名を表示）                        |
+| 所属（サブタイトル）                      | [\_pages/en/about.md](_pages/en/about.md) / [\_pages/ja/about.md](_pages/ja/about.md) の `subtitle`                                 |
+| プロフィール写真                          | 同ファイルの `profile.image`（現在 `prof_pic.png`）→ 実体は [assets/img/](assets/img/)。※[6章の注意](#6-既知の注意点未整備事項)あり |
+| 自己紹介文                                | 同ファイルの本文（front matter の `---` より下）                                                                                    |
+| news 欄（最新5件）                        | [\_news/en/](_news/en/) / [\_news/ja/](_news/ja/) の各 `.md`（件数は about.md の `announcements.limit`）                            |
+| latest posts 欄（最新3件）                | [\_posts/en/](_posts/en/) / [\_posts/ja/](_posts/ja/) の各 `.md`（件数は `latest_posts.limit`）                                     |
+| selected publications 欄                  | [\_bibliography/papers.bib](_bibliography/papers.bib) のうち `selected={true}` のエントリ                                           |
+| ページ下部のアイコン（メール・GitHub 等） | [\_data/socials.yml](_data/socials.yml)                                                                                             |
+| 欄見出し（news / 最新の投稿 / 主要論文）  | [\_data/en/strings.yml](_data/en/strings.yml) / [\_data/ja/strings.yml](_data/ja/strings.yml)                                       |
+
+#### publications — `/publications/` , `/ja/publications/`（nav_order: 2）
+
+| 画面上の要素                               | 表示内容の出どころ                                                                                                                            |
+| :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
+| 論文リスト全体（年ごとにグループ化、降順） | [\_bibliography/papers.bib](_bibliography/papers.bib)（英日共通の 1 ファイル）                                                                |
+| タイトル・会議名の言語切替                 | `.bib` の `title` / `booktitle` が日本語版、`title_en` / `booktitle_en` があれば英語版で優先表示                                              |
+| 受賞表示                                   | `award`（日本語版）/ `award_en`（英語版）                                                                                                     |
+| 左側の略称バッジ（ICPR 等）                | `abbr`。色・リンクは [\_data/venues.yml](_data/venues.yml) で指定可能（現在はテーマのサンプルのみ）                                           |
+| 自分の名前の強調                           | [\_config.yml](_config.yml) の `scholar.last_name` / `scholar.first_name`                                                                     |
+| 共著者名のリンク                           | [\_data/coauthors.yml](_data/coauthors.yml)（現在はテーマのサンプルのみ）                                                                     |
+| 被引用数バッジ                             | `.bib` の `google_scholar_id` ＋ [\_data/citations.yml](_data/citations.yml)（自動更新）。※現状は未設定、[6章](#6-既知の注意点未整備事項)参照 |
+| 注記（Equal contribution 等）              | `annotation`                                                                                                                                  |
+| 検索ボックス                               | [\_config.yml](_config.yml) の `bib_search: true`                                                                                             |
+| ページ定義                                 | [\_pages/en/publications.md](_pages/en/publications.md) / [\_pages/ja/publications.md](_pages/ja/publications.md)                             |
+| 表示テンプレート                           | [\_layouts/bib.liquid](_layouts/bib.liquid)、並び・グループは `_config.yml` の `scholar:` セクション                                          |
+
+#### cv — `/cv/` , `/ja/cv/`（nav_order: 5）
+
+| 画面上の要素                                        | 表示内容の出どころ                                                                                                                                                        |
+| :-------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| CV 本体（基本情報・職歴・学歴・受賞・スキル・言語） | [assets/json/resume_en.json](assets/json/resume_en.json) / [assets/json/resume_ja.json](assets/json/resume_ja.json)（[JSON Resume](https://jsonresume.org/schema/) 形式） |
+| 表示するセクションと順序                            | [\_config.yml](_config.yml) の `jsonresume:` リスト（空配列 `[]` のセクションは非表示）                                                                                   |
+| セクション見出しの翻訳                              | [\_data/en/strings.yml](_data/en/strings.yml) / [\_data/ja/strings.yml](_data/ja/strings.yml) の `cv:`                                                                    |
+| 右上の PDF アイコン                                 | [assets/pdf/en/CV_en.pdf](assets/pdf/en/CV_en.pdf) / [assets/pdf/ja/CV_ja.pdf](assets/pdf/ja/CV_ja.pdf)（ファイル名は `_pages/*/cv.md` の `cv_pdf`）                      |
+| ページ定義                                          | [\_pages/en/cv.md](_pages/en/cv.md) / [\_pages/ja/cv.md](_pages/ja/cv.md)、表示は [\_layouts/cv.liquid](_layouts/cv.liquid)                                               |
+
+> [!IMPORTANT]
+> CV のデータ源は `resume_*.json` に一本化しています。テーマには YAML 形式（`_data/LANG/cv.yml`）の仕組みもありますが、[\_layouts/cv.liquid](_layouts/cv.liquid) は **JSON が存在すると JSON を優先**するため、以前あった `cv.yml` は表示に使われておらず、内容の食い違いを避けるため削除しました。
+> PDF 版 CV は手動で差し替えが必要です（JSON を更新しても PDF は変わりません）。
+
+#### activities — `/activities/` , `/ja/activities/`（nav_order: 6）
+
+| 画面上の要素                   | 表示内容の出どころ                                                                                                                      |
+| :----------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| Teaching（授業担当）の表・説明 | [\_pages/en/activities.md](_pages/en/activities.md) / [\_pages/ja/activities.md](_pages/ja/activities.md) の本文（Markdown を直接記述） |
+| Internship / Activities 欄     | 同ファイル内で `<!-- ... -->` によりコメントアウト中（未記入のため非表示）。記入後にコメントを外すと表示されます                        |
+
+### 3-2. ナビには出ていないが公開されているページ
+
+`nav: false` のページもビルドされ、URL を直接開けば閲覧できます。現在の内容の多くはテーマのサンプルのままです（[6章](#6-既知の注意点未整備事項)）。
+
+| ページ       | URL                   | ページ定義                 | 表示内容の出どころ                                                                                             | 現状                                                                               |
+| :----------- | :-------------------- | :------------------------- | :------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+| news 一覧    | `/news/`              | `_pages/*/news.md`         | `_news/en/`, `_news/ja/`                                                                                       | 自分の内容                                                                         |
+| ニュース個別 | `/news/<ファイル名>/` | —                          | `_news/*/*.md`（`inline: true` のものは一覧に本文を直接表示）                                                  | 自分の内容                                                                         |
+| blog 一覧    | `/blog/`              | `_pages/*/blog.md`         | `_posts/en/`, `_posts/ja/`（ファイル名 `YYYY-MM-DD-title.md`）                                                 | 投稿は自分の内容。英語版の見出し `blog_name: al-folio in english` はサンプルのまま |
+| blog 記事    | `/blog/<年>/<title>/` | —                          | `_posts/*/*.md`                                                                                                | 自分の内容                                                                         |
+| projects     | `/projects/`          | `_pages/*/projects.md`     | `_projects/en/`, `_projects/ja/`（`category`: work / fun、`importance` 順）                                    | **テーマのサンプル**（project 1〜9）                                               |
+| repositories | `/repositories/`      | `_pages/*/repositories.md` | [\_data/repositories.yml](_data/repositories.yml)（GitHub ユーザ・リポジトリ一覧。カードは外部サービスで生成） | 自分の内容。英語版の説明文はサンプルのまま                                         |
+| bookshelf    | `/books/`             | `_pages/*/books.md`        | `_books/en/`, `_books/ja/`                                                                                     | **テーマのサンプル**（The Godfather）                                              |
+| 404          | `/404.html`           | `_pages/*/404.md`          | 同ファイル                                                                                                     | 3秒後にトップへリダイレクト                                                        |
+| submenus     | —                     | `_pages/*/dropdown.md`     | ナビのドロップダウン定義（`nav: false` で非表示）                                                              | 未使用                                                                             |
 
 ---
 
-#### Code quality checks
+## 4. 全ページ共通の要素
 
-Currently, we run some checks to ensure that the code quality and generated site are good. The checks are done using GitHub Actions and the following tools:
+| 要素                                            | 表示内容の出どころ                                                                                                                   |
+| :---------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
+| ナビ左上の名前・ナビ項目                        | `_config.yml` の氏名、各ページの `title` / `nav` / `nav_order`（[\_includes/header.liquid](_includes/header.liquid)）                |
+| 言語切替（English / 日本語）                    | `_config.yml` の `languages` / `default_lang`、表示名は `_data/*/strings.yml` の `language_name`                                     |
+| フッター                                        | `© <年> Kei Hiroshima.` ＋ `_data/*/strings.yml` の `footer_text`（現在は空）。`_config.yml` の `footer_text` は**使われていません** |
+| ブラウザタブのタイトル                          | 氏名 ＋ 各ページの `title`                                                                                                           |
+| `<meta name="description">`（検索結果の説明文） | 各ページの `description`、無ければ `_data/*/strings.yml` の `site_description`（現在はテーマ既定文）                                 |
+| ファビコン                                      | `_config.yml` の `icon`（[assets/img/favicon.svg](assets/img/favicon.svg)）                                                          |
+| サイト内検索（ctrl+k）                          | `_config.yml` の `search_enabled` など                                                                                               |
+| ダークモード切替                                | `_config.yml` の `enable_darkmode`                                                                                                   |
+| 画像のレスポンシブ化                            | `_config.yml` の `imagemagick:`（`assets/img/` の jpg/png 等から 480/800/1400px の `.webp` を自動生成）                              |
 
-- [Prettier](https://prettier.io/) - check if the formatting of the code follows the style guide
-- [lychee](https://lychee.cli.rs/) - check for broken links
-- [Axe](https://github.com/dequelabs/axe-core) (need to run manually) - do some accessibility testing
+---
 
-We decided to keep `Axe` runs manual because fixing the issues are not straightforward and might be hard for people without web development knowledge.
+## 5. よくある更新作業
 
-## FAQ
+編集後は `docker compose up` で表示を確認してから `main` に push してください。**英語版・日本語版の両方を更新する**のを忘れないようにしてください。
 
-For frequently asked questions, please refer to [FAQ.md](FAQ.md).
+| やりたいこと                 | 編集するファイル                                                                                                                                                                                |
+| :--------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 論文を追加する               | [\_bibliography/papers.bib](_bibliography/papers.bib) にエントリ追加。トップにも出すなら `selected={true}`、日本語論文は `title_en` / `booktitle_en` を併記                                     |
+| 論文に被引用数を出す         | Google Scholar の論文 URL の `citation_for_view=<USERID>:<ID>` の `<ID>` を `.bib` の `google_scholar_id={...}` に記入（[\_data/citations.yml](_data/citations.yml) のキーの `:` 以降と同じ値） |
+| ニュースを追加する           | `_news/en/xxx.md` と `_news/ja/xxx.md` を作成（既存の [\_news/en/icpr2026_accepted.md](_news/en/icpr2026_accepted.md) をコピー）                                                                |
+| ブログ記事を書く             | `_posts/en/YYYY-MM-DD-title.md` と `_posts/ja/...` を作成                                                                                                                                       |
+| 自己紹介・所属を変える       | `_pages/en/about.md` / `_pages/ja/about.md`（`subtitle` と本文）                                                                                                                                |
+| CV を更新する                | `assets/json/resume_en.json` / `resume_ja.json`、PDF は `assets/pdf/en/CV_en.pdf` / `assets/pdf/ja/CV_ja.pdf` を差し替え                                                                        |
+| 授業・インターン等を追記する | `_pages/en/activities.md` / `_pages/ja/activities.md`                                                                                                                                           |
+| SNS・連絡先リンクを変える    | [\_data/socials.yml](_data/socials.yml)                                                                                                                                                         |
+| プロフィール写真を変える     | `assets/img/` に置き、`about.md` の `profile.image` を変更（[6章の注意](#6-既知の注意点未整備事項)参照）                                                                                        |
+| ナビに項目を出す／隠す       | 各 `_pages/*/*.md` の `nav: true/false` と `nav_order`                                                                                                                                          |
+| サイト全体の設定             | [\_config.yml](_config.yml)（変更後は開発サーバが自動再起動）                                                                                                                                   |
 
-## Contributing
+---
 
-Contributions to multi-language-al-folio are very welcome! Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
+## 6. 既知の注意点・未整備事項
 
-If you would like to improve documentation or fix a minor inconsistency or bug, please feel free to send a PR directly to `main`. For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
+調査時点（2026-09）で見つかったもの。対応済みのものは ✅。
 
-### Maintainers
+| #   | 内容                                                                                                                                                                                                                                                             | 状態・対応方法                                                                                   |
+| :-- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
+| 1   | CV の修了予定年が about（2028）と CV（2029）で食い違っていた                                                                                                                                                                                                     | ✅ `resume_*.json` を 2028 年春（3月）に修正                                                     |
+| 2   | 表示に使われていない `_data/{en,ja}/cv.yml` が存在し、CV の編集先が紛らわしかった                                                                                                                                                                                | ✅ 削除し、データ源を `resume_*.json` に一本化                                                   |
+| 3   | activities の Internship / Activities 欄が `[Role]` などのプレースホルダのまま公開されていた                                                                                                                                                                     | ✅ コメントアウトで非表示（記入後に `<!--` `-->` を外す）                                        |
+| 4   | **プロフィール写真の衝突**: `assets/img/prof_pic.jpg` と `prof_pic.png` が同じ `prof_pic-{480,800,1400}.webp` を生成するため、ビルド時に `Conflict` 警告が出る。about では png を指定しているが、ブラウザが実際に読み込む webp は jpg 側（カラー版）になっている | 未対応。使わない方をリネーム／削除すれば解消（例: カラー版を使わないなら `prof_pic.jpg` を削除） |
+| 5   | 論文に `google_scholar_id` が無いため、`_data/citations.yml` は自動更新されているが**画面には被引用数が出ていない**                                                                                                                                              | 未対応。[5章](#5-よくある更新作業)の手順で `.bib` に ID を追記                                   |
+| 6   | projects / bookshelf / blog 見出し（英語版）/ repositories 説明文（英語版）がテーマのサンプルのまま。ナビには出ないが URL 直打ちで閲覧可能                                                                                                                       | 未対応。使わないなら該当 `_pages`・コレクションを削除、または内容を差し替え                      |
+| 7   | `_data/coauthors.yml` / `_data/venues.yml` がテーマのサンプル（物理学者など）                                                                                                                                                                                    | 未対応（表示上の実害はほぼ無し）。共著者リンクや会議バッジ色を付けたい場合に置き換え             |
+| 8   | `<meta description>` がテーマ既定文、`_config.yml` の `description` も `description will be updated soon`                                                                                                                                                        | 未対応。`_data/*/strings.yml` の `site_description` を自分の説明に変更                           |
+| 9   | `_config.yml` の `footer_text` は使われていない（フッターは `strings.yml` の `footer_text` を参照）                                                                                                                                                              | 情報のみ                                                                                         |
+| 10  | activities（英語版）の本文に typo（`leanrning`, `lenear`）                                                                                                                                                                                                       | 未対応                                                                                           |
+| 11  | `assets/img/` に未使用と思われるサンプル画像（`1.jpg`〜`12.jpg`、`prof_pic_color.png`（14MB）など）がある                                                                                                                                                        | 未対応。ビルド時間とリポジトリサイズに影響                                                       |
 
-Our most active contributors are welcome to join the maintainers team. If you are interested, please reach out!
+---
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://maruan.alshedivat.com"><img src="https://avatars.githubusercontent.com/u/2126561?v=4" width="100px;" alt=""/><br /><sub><b>Maruan</b></sub></a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://rohandebsarkar.github.io"><img src="https://avatars.githubusercontent.com/u/50144004?v=4" width="100px;" alt=""/><br /><sub><b>Rohan Deb Sarkar</b></sub></a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://amirpourmand.ir"><img src="https://avatars.githubusercontent.com/u/32064808?v=4" width="100px;" alt=""/><br /><sub><b>Amir Pourmand</b></sub></a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://george-gca.github.io/"><img src="https://avatars.githubusercontent.com/u/31376482?v=4" width="100px;" alt=""/><br /><sub><b>George</b></sub></a></td>
-    </tr>
-  </tbody>
-</table>
+## 7. ディレクトリ構成
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+主に編集するものに ★ を付けています。
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+```text
+.
+├── _config.yml               ★ サイト全体の設定（氏名・URL・機能 ON/OFF・論文表示設定・CV セクション）
+├── _pages/{en,ja}/           ★ 各ページの定義（URL・タイトル・ナビ・本文）
+├── _bibliography/papers.bib  ★ 論文リスト（英日共通）
+├── _news/{en,ja}/            ★ ニュース
+├── _posts/{en,ja}/           ★ ブログ記事
+├── _projects/{en,ja}/          プロジェクト（現在はサンプル）
+├── _books/{en,ja}/             本棚（現在はサンプル）
+├── _data/
+│   ├── socials.yml           ★ SNS・連絡先・Scholar ID
+│   ├── citations.yml           被引用数（GitHub Actions が自動更新、手で編集しない）
+│   ├── repositories.yml        repositories ページの対象
+│   ├── coauthors.yml / venues.yml  論文表示の補助（現在はサンプル）
+│   └── {en,ja}/strings.yml     UI 文言の翻訳・サイト説明文
+├── assets/
+│   ├── json/resume_{en,ja}.json ★ CV の内容
+│   ├── pdf/{en,ja}/          ★ CV の PDF
+│   └── img/                  ★ プロフィール写真などの画像
+├── _layouts/ _includes/ _sass/ _plugins/ _scripts/   テーマ本体（通常は編集不要）
+├── bin/
+│   ├── entry_point.sh          Docker 開発サーバの起動スクリプト
+│   └── update_scholar_citations.py  被引用数取得スクリプト
+├── Dockerfile                  ビルド環境イメージ
+├── docker-compose.yml          開発サーバ（:8080）
+├── docker-compose.prod.yml     本番同等ビルド＋nginx（:8081）
+├── .github/workflows/          CI/CD（deploy.yml, update-citations.yml が主）
+└── README.al-folio.md          テーマ本来の README
+```
 
-### All Contributors
+---
 
-<a href="https://contrib.rocks">
-  <img src="https://contrib.rocks/image?repo=alshedivat/al-folio&max=500&columns=24" />
-</a>
+## 8. トラブルシューティング
 
-## Star History
-
-<a href="https://star-history.com/#george-gca/multi-language-al-folio&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=george-gca/multi-language-al-folio&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=george-gca/multi-language-al-folio&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=george-gca/multi-language-al-folio&type=Date" />
-  </picture>
-</a>
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://github.com/george-gca/multi-language-al-folio/blob/main/LICENSE).
-
-Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
+| 症状                                                                           | 対処                                                                                                                                          |
+| :----------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Cannot connect to the Docker daemon`                                          | Docker Desktop を起動する（macOS: `open -a Docker`）                                                                                          |
+| `port is already allocated`（8080/8081/35729）                                 | 既存のコンテナを `docker compose down` / `docker compose -f docker-compose.prod.yml down` で停止、または compose ファイルの `ports` を変更    |
+| `Permission denied ... .jekyll-cache`                                          | [Dockerfile](Dockerfile) と [docker-compose.yml](docker-compose.yml) のコメントに従い、非 root ユーザを有効化                                 |
+| Gemfile / Dockerfile を変えたのに反映されない                                  | `docker compose up --build`（本番同等は `-f docker-compose.prod.yml up --build`）                                                             |
+| 変更がブラウザに反映されない                                                   | 強制リロード（Cmd+Shift+R）。`_config.yml` の変更は自動再起動を待つ                                                                           |
+| ビルドログの `Conflict: The following destination is shared by multiple files` | 同名で拡張子違いの画像が `assets/img/` にある（[6章 #4](#6-既知の注意点未整備事項)）                                                          |
+| GitHub 上でデプロイが失敗した                                                  | Actions タブで `Deploy site` のログを確認。ローカルで `docker compose -f docker-compose.prod.yml up --build` を実行すると同じ手順で再現できる |

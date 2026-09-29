@@ -1,7 +1,8 @@
-# this file uses prebuilt image in dockerhub
+# local development server (jekyll serve + livereload): http://localhost:8080
+# the image is built from ./Dockerfile on first run (docker compose up --build to rebuild)
 services:
   jekyll:
-    image: amirpourmand/al-folio:v1.16.2
+    image: keihiroshima-site:local
     build: .
     # uncomment these if you are having this issue with the build:
     # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
