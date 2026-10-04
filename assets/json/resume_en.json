@@ -69,6 +69,13 @@
   ],
   "awards": [
     {
+      "title": "Best Paper Award",
+      "date": "2026",
+      "awarder": "FAN2026 (The 34th Intelligent System Symposium)",
+      "url": "",
+      "summary": "Evaluating Large Language Models on Black-Box Optimization Word Problems"
+    },
+    {
       "title": "Outstanding Presentation Award",
       "date": "2025",
       "awarder": "SSI 2025 (SICE Symposium on Systems and Information)",
