@@ -69,6 +69,13 @@
   ],
   "awards": [
     {
+      "title": "最優秀論文賞",
+      "date": "2026",
+      "awarder": "FAN2026（第34回インテリジェント・システム・シンポジウム）",
+      "url": "",
+      "summary": "Black-Box Optimization Word Problems における大規模言語モデルの評価"
+    },
+    {
       "title": "優秀発表賞",
       "date": "2025",
       "awarder": "SSI2025（システム・情報部門学術講演会）",
